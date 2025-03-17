@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="label" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="730.0" minWidth="870.0" prefHeight="730.0" prefWidth="870.0" style="-fx-background-color: #4F4F4F;" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fastcost.MainController">
+    <children>
+        <TableView fx:id="productTableView" layoutX="20.0" layoutY="225.0" minHeight="510.0" minWidth="260.0" prefHeight="510.0" prefWidth="260.0">
+            <columns>
+                <TableColumn fx:id="IDCol" minWidth="46.0" prefWidth="46.0" text="ID" />
+                <TableColumn fx:id="NameCol" minWidth="116.0" prefWidth="116.0" text="Nazwa elementu" />
+                <TableColumn fx:id="NetPriceCol" minWidth="84.0" prefWidth="84.0" text="Cena netto" />
+            </columns>
+        </TableView>
+      <MenuButton fx:id="MenuButton" layoutX="803.0" mnemonicParsing="false" prefWidth="67.0" text="Menu">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#onNewDocumentButtonClick" text="Nowy Dokument" />
+          <MenuItem mnemonicParsing="false" onAction="#onSaveButtonClick" text="Zapisz" />
+          <MenuItem mnemonicParsing="false" onAction="#onSaveAsButtonClick" text="Zapisz Jako" />
+          <MenuItem mnemonicParsing="false" onAction="#onLoadFileButtonClick" text="Wczytaj Plik" />
+          <MenuItem mnemonicParsing="false" onAction="#onPDFButtonClick" text="Stwórz PDF" />
+          <MenuItem mnemonicParsing="false" onAction="#onLoadElisoftDataButtonClick" text="Wczytaj Dane Elisoft" />
+          <MenuItem mnemonicParsing="false" onAction="#onAddPathButtonClick" text="Dodaj Ścieżkę Do Elisoft" />
+          <MenuItem mnemonicParsing="false" onAction="#onUpdateDataButtonClick" text="Aktualizuj Dane Elisoft" />
+          <MenuItem mnemonicParsing="false" onAction="#onLegendButtonClick" text="Legenda" />
+        </items>
+      </MenuButton>
+          <TableView fx:id="informationTableView" layoutX="20.0" layoutY="15.0" minWidth="260.0" prefHeight="200.0" prefWidth="260.0">
+              <columns>
+                  <TableColumn fx:id="DescriptionCol" maxWidth="100" minWidth="100" prefWidth="100" />
+                  <TableColumn fx:id="InformationCol" minWidth="160.0" prefWidth="160.0" />
+              </columns>
+          </TableView>
+          <TableView fx:id="dataTableView" layoutX="285.0" layoutY="55.0" minHeight="510.0" minWidth="575.0" prefHeight="680.0" prefWidth="575.0">
+              <columns>
+                  <TableColumn fx:id="OrdinalNumber" minWidth="41.0" prefWidth="41.0" text="Lp" />
+                  <TableColumn fx:id="Function" minWidth="49.0" prefWidth="49.0" text="Funkcja" />
+                  <TableColumn fx:id="ID" minWidth="46.0" prefWidth="46.0" text="ID" />
+                  <TableColumn fx:id="ElementName" minWidth="116.0" prefWidth="116.0" text="Nazwa elementu" />
+                  <TableColumn fx:id="Piece" minWidth="47.0" prefWidth="47.0" text="Szt" />
+                  <TableColumn fx:id="UnitPrice" minWidth="85.0" prefWidth="85.0" text="Cena jedn. [zł]" />
+                  <TableColumn fx:id="TotalPrice" minWidth="96.0" prefWidth="96.0" text="Cena łączna [zł]" />
+                  <TableColumn fx:id="Comments" minWidth="79.0" prefWidth="79.0" text="Uwagi" />
+              </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#onAddButtonClick" text="Dodaj" />
+                  <MenuItem mnemonicParsing="false" onAction="#onDeleteButtonClick" text="Usuń" />
+                  <MenuItem mnemonicParsing="false" onAction="#onTitleButtonClick" text="Tytuł" />
+                  <MenuItem mnemonicParsing="false" onAction="#onSummaryButtonClick" text="Pdsumowanie" />
+                  <MenuItem mnemonicParsing="false" onAction="#onFinalSummaryButtonClick" text="Pdsumowanie końcowe" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+          </TableView>
+    </children>
+</Pane>

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|c:\\users\\micha\\desktop\\fastcost-test\\fastcost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|c:\\users\\micha\\desktop\\fastcost-test\\fastcost\\fastcost.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|solutionrelative:fastcost.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|c:\\users\\micha\\desktop\\fastcost-test\\fastcost\\ikonafastcost.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F4C03575-9130-4EA7-B2E7-11D9C7693398}|FastCost.csproj|solutionrelative:ikonafastcost.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FastCost",
+              "DocumentMoniker": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\FastCost.csproj",
+              "RelativeDocumentMoniker": "FastCost.csproj",
+              "ToolTip": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\FastCost.csproj",
+              "RelativeToolTip": "FastCost.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T20:48:06.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ikonaFastCost.ico -  [Polski (Polska)] - Icon [256x256, 32-bitowy, PNG]",
+              "DocumentMoniker": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\ikonaFastCost.ico",
+              "RelativeDocumentMoniker": "ikonaFastCost.ico",
+              "ToolTip": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\ikonaFastCost.ico -  [Polski (Polska)] - Icon [256x256, 32-bitowy, PNG]",
+              "RelativeToolTip": "ikonaFastCost.ico -  [Polski (Polska)] - Icon [256x256, 32-bitowy, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-11-05T20:47:16.838Z",
+              "EditorCaption": " -  [Polski (Polska)] - Icon [256x256, 32-bitowy, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\micha\\Desktop\\FastCost-test\\FastCost\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:48:42.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

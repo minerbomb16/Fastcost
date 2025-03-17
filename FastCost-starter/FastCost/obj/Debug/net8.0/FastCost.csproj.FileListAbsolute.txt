@@ -1,0 +1,14 @@
+C:\Users\micha\Desktop\FastCost-test\FastCost\bin\Debug\net8.0\FastCost.exe
+C:\Users\micha\Desktop\FastCost-test\FastCost\bin\Debug\net8.0\FastCost.deps.json
+C:\Users\micha\Desktop\FastCost-test\FastCost\bin\Debug\net8.0\FastCost.runtimeconfig.json
+C:\Users\micha\Desktop\FastCost-test\FastCost\bin\Debug\net8.0\FastCost.dll
+C:\Users\micha\Desktop\FastCost-test\FastCost\bin\Debug\net8.0\FastCost.pdb
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.AssemblyInfoInputs.cache
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.AssemblyInfo.cs
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.dll
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\refint\FastCost.dll
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.pdb
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\FastCost.genruntimeconfig.cache
+C:\Users\micha\Desktop\FastCost-test\FastCost\obj\Debug\net8.0\ref\FastCost.dll

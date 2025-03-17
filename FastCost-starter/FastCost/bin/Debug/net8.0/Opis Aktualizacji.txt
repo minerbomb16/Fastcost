@@ -1,0 +1,3 @@
+Co dodano:
+1. Naprawa błędu związanego z zmianą funkcji sumowania podczas kliknięcia w pole wyszukiwania.
+2. Naprawa błędu związanego z nieotwieraniem wyszukiwania plików w określonym katalogu.

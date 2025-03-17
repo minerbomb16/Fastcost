@@ -1,0 +1,104 @@
+#informationTableView .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+#informationTableView .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+#productTableView .scroll-bar * {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+#dataTableView .scroll-bar * {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #424242;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #000000 ;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FAFAFA;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #DBDBDB;
+}
+
+.table-row-cell:empty {
+    -fx-border-width: 0px;
+    -fx-background-color: white;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.menu-button {
+    -fx-background-color: #DBDBDB;
+    -fx-text-fill: #424242;
+    -fx-border-width: 0px;
+}
+
+.menu-item .label {
+    -fx-text-fill: #424242;
+}
+
+.menu-item:focused {
+    -fx-background-color: #424242;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #DBDBDB;
+}
+
+.context-menu {
+    -fx-background-color: #DBDBDB;
+}
+
+.dialog-pane {
+    -fx-background-color: #E5E5E5;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14;
+}
+
+.button {
+    -fx-background-color: #A5A5A5;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12;
+    -fx-border-color: #A5A5A5;
+    -fx-border-width: 1px;
+}
+
+.button:hover {
+    -fx-border-color: #424242;
+}
+
+.button:pressed {
+    -fx-background-color: #424242;
+    -fx-text-fill: #DBDBDB;
+    -fx-border-color: #A5A5A5;
+}
